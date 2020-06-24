@@ -1,0 +1,37 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}
+
+
+
+.searchBar{
+  width: 50vw;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.searchButton{
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left:15px;
+  color: black;
+}
+
+.searchForm{
+  min-height: 10vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3vh;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
