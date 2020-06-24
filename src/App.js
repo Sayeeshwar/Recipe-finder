@@ -27,8 +27,9 @@ function App() {
   
   return (
     <div className="App">
+      <h1>Recipe Finder!</h1>
       <form className='searchForm'>
-        <input className='searchBar' value={query} type='text' onChange={(e)=> setQuery(e.target.value)}></input>
+        <input className='searchBar' value={query} placeholder="Enter any ingredient name here! " type='text' onChange={(e)=> setQuery(e.target.value)}></input>
         <button className='searchButton' onClick={(e)=>{e.preventDefault();setFood(query)}}>Search</button>
       </form>
 
